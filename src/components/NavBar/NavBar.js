@@ -12,8 +12,7 @@ function NavBar() {
     const location = useLocation()
     const [user, setUser] = useState(JSON.parse(localStorage.getItem('profile')))
 
-    const logOut = (e)=>{
-        e.preventDefault();
+    const logOut = ()=>{
         dispatch({type: 'LOGOUT'})
         history.push('/')
         setUser(null)
