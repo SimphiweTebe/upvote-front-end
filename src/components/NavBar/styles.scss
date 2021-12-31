@@ -1,0 +1,75 @@
+.app__bar{
+    position: relative;
+    width: 95%;
+    max-width: 900px;
+    margin: 1rem auto 0;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    
+    .logo{
+        font-size: 2rem;
+        text-align: center;
+        color: #222;
+        font-weight: 700;
+    }
+    
+    .options{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: .5rem;
+        flex: 1;
+
+        .login{
+            background: #FE5958;
+            color: #fff;
+            border: 2px solid #FE5958;
+        }
+        .logout{
+            background: #d1d1d1;
+            color: #fff;
+            border: 2px solid #d1d1d1;
+        }
+
+        .upload{
+            padding: .7rem 1rem;
+            cursor: pointer;
+            font-size: 1.3rem;
+            background: #FE5958;
+            color: #fff;
+            border: 2px solid #FE5958;
+        }
+
+        .profile{
+            display: flex;
+            align-items: center;
+
+            .username{
+                border-radius: 50%;
+                margin-right: 10px;
+                padding: 7px 8px;
+                display: block;
+                // background: #FE5958;
+                border: 2px solid #FE5958;
+                color: #FE5958;
+            }
+
+            .fullname{
+                margin-right: 20px;
+                color: #FE5958;
+            }
+        }
+
+        a{
+            padding: .7rem 1rem;
+            cursor: pointer;
+            font-size: 1.3rem;
+        }
+
+        button{
+            font-size: 2rem;
+            background: none;
+        }
+    }
+}

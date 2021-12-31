@@ -1,0 +1,61 @@
+.auth-form{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3{
+        text-align: center;
+    }
+
+    .inputs{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-top: 3rem;
+
+        input{
+            padding: 10px;
+            margin-bottom: 5px;
+        }
+        label{
+            display: flex;
+            align-items: center;
+            position: relative;
+
+            input{
+                width: 100%;
+            }
+
+            svg{
+                position: absolute;
+                right: 10px;
+                z-index: 1;
+            }
+        }
+    }
+
+    &__submit{
+        padding: 15px;
+        margin-bottom: 20px;
+        background-color: #FE5958;
+        color: #fff;
+        font-weight: 700;
+        letter-spacing: .2px;
+    }
+}
+.form-switch{
+    background: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.errors{
+    color: crimson;
+    text-align: center;
+    margin-top: 20px;
+}
